@@ -189,6 +189,7 @@ All three search types share the same filter parameters (genre, year_from, year_
 Analytics should reflect real user behavior — including failed searches. Empty-result logs help identify gaps in the database or unclear UI.
 
 ---
+
 ## 📸 Demo
 
 ### Главное меню
@@ -201,6 +202,9 @@ Analytics should reflect real user behavior — including failed searches. Empty
 
 ### Статистика запросов
 ![Statistics](Screenshots/statistics.png)
+
+---
+
 ## 📋 Requirements
 
 - Python 3.8+
