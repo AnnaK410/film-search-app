@@ -268,6 +268,7 @@ def get_search_inputs(search_type):
                     f"(или Enter для поиска заново): "
                 ).strip()
                 if not choice:
+                    clear_output(wait=False)
                     break
                 if choice.isdigit() and 1 <= int(choice) <= total_actors:
                     selected = found_actors[int(choice) - 1]
